@@ -117,8 +117,9 @@
     }
     .video-wrapper {
       position: relative;
-      width: 100%;
-      padding-bottom: 56.25%;
+      width: 60%;
+      margin: 0 auto;
+      padding-bottom: 106.67%;
       border-radius: 16px;
       overflow: hidden;
       background: #e8e0d4;
@@ -131,6 +132,9 @@
       height: 100%;
       border: none;
     }
+    @media (max-width: 600px) {
+      .video-wrapper { width: 80%; padding-bottom: 142.22%; }
+    }
 
     /* Brushes */
     .brushes-section {
@@ -140,13 +144,13 @@
       font-size: 20px;
       font-weight: 700;
       color: var(--green);
-      margin-bottom: 20px;
+      margin-bottom: 12px;
       text-align: center;
     }
     .brush-list {
       display: flex;
       flex-direction: column;
-      gap: 12px;
+      gap: 8px;
     }
     .brush-card {
       display: flex;
@@ -155,7 +159,7 @@
       background: var(--warm-white);
       border: 1px solid rgba(78, 104, 36, 0.1);
       border-radius: 14px;
-      padding: 16px 20px;
+      padding: 10px 16px;
       transition: transform 0.2s, box-shadow 0.2s;
     }
     .brush-card:hover {
@@ -192,18 +196,18 @@
     /* Download Button */
     .download-section {
       text-align: center;
-      padding: 8px 0 44px;
+      padding: 8px 0 28px;
     }
     .download-btn {
       display: inline-flex;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
       background: linear-gradient(135deg, var(--green) 0%, var(--green-light) 100%);
       color: white;
       text-decoration: none;
-      padding: 16px 40px;
+      padding: 12px 28px;
       border-radius: 50px;
-      font-size: 17px;
+      font-size: 15px;
       font-weight: 500;
       letter-spacing: 1px;
       box-shadow: 0 6px 24px rgba(78, 104, 36, 0.3);
@@ -225,8 +229,8 @@
       background: var(--warm-white);
       border: 1px solid rgba(78, 104, 36, 0.08);
       border-radius: 20px;
-      padding: 32px 28px;
-      margin-bottom: 40px;
+      padding: 28px 24px;
+      margin-bottom: 24px;
     }
     .tips-header {
       display: flex;
@@ -444,10 +448,9 @@
     <div class="cta-section">
       <p>
         如果你完成了可愛的檸檬片，<br>
-        歡迎 IG @我 🌿 <a href="https://www.instagram.com/my_goodesign" target="_blank" rel="noopener" class="ig-tag">(my_goodesign)</a>
+        歡迎 IG @我 <a href="https://www.instagram.com/my_goodesign" target="_blank" rel="noopener" class="ig-tag">(my_goodesign)</a>
       </p>
-      <br>
-      <p style="margin-top: 24px;">
+      <p style="margin-top: 8px;">
         想要更多植物電繪教學？<br>
         歡迎加入我的 Skool！
       </p>
